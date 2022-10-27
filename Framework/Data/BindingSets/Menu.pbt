@@ -60,7 +60,7 @@ Assets {
             Value: "mc:ebindingkeyboard:i"
           }
           KeyboardSecondary {
-            Value: "mc:ebindingkeyboard:e"
+            Value: "mc:ebindingkeyboard:none"
           }
           Controller {
             Value: "mc:ebindinggamepad:none"
@@ -103,7 +103,7 @@ Assets {
       BasicBindingData {
         BasicInputs {
           KeyboardPrimary {
-            Value: "mc:ebindingkeyboard:q"
+            Value: "mc:ebindingkeyboard:j"
           }
           KeyboardSecondary {
             Value: "mc:ebindingkeyboard:none"
