@@ -1,0 +1,18 @@
+Assets {
+  Id: 17186096301476401720
+  Name: "Fantasy Castle Stairs Spiral Wall 01 - Straight"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_stairs_spiral_wall_001_strt"
+  }
+}
+Assets {
+  Id: 10420083731386464032
+  Name: "Wedge - Concave"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_curved_concave_001"
+  }
+}
