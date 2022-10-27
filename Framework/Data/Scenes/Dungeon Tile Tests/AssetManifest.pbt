@@ -138,19 +138,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13710889356262332268
-  Name: "C1"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "fd455198e43c4f0c84c5207c157c7152"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 13420476618392182070
   Name: "Gem Pack 1"
   PlatformAssetType: 24
@@ -294,19 +281,6 @@ Assets {
       Key: "4299f56202d54c70862eda996b69bc67"
       Type {
         Value: "mc:enetreferencetype:creatorperk"
-      }
-    }
-  }
-}
-Assets {
-  Id: 10012410889034845143
-  Name: "C2"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "878d542f39cc4860a61085614808d546"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
       }
     }
   }
@@ -599,38 +573,12 @@ Assets {
   }
 }
 Assets {
-  Id: 3433394089877762725
-  Name: "NFTup"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "f925fa0f1f404f5689278ed46616cf6d"
-      Type {
-        Value: "mc:enetreferencetype:concurrentplayerpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 3295690706030492699
   Name: "Character2"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
       Key: "01c69676f0a843e09e8665b546791748"
-      Type {
-        Value: "mc:enetreferencetype:sharedpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 2809854582386319580
-  Name: "Charadd"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "8cf490a6aec141b9b76cba64960a0659"
       Type {
         Value: "mc:enetreferencetype:sharedpersistence"
       }
