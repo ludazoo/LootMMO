@@ -36,7 +36,11 @@ end
 function SetActionName(name)
 	if name then
 		for key, child in pairs(ACTION_NAME:GetChildren()) do
-			child.text = name
+			if name ~= "Shift" then
+				child.text = Input.GetActionInputLabel(name)
+			else
+				child.text = name
+			end
 		end
 	end
 end
@@ -107,9 +111,15 @@ function Tick(deltaTime)
 	local currentPhase = ability:GetCurrentPhase()
 
 	PANEL.visibility = Visibility.INHERIT
+	
+	local potion_data = _G['Potions.Equipment'].FindByAssetIdName(currentAbility.name)
 
-	-- Update the level text for the ability
-	NAME_TEXT.text = currentAbility.name
+	if potion_data ~= nil then
+		NAME_TEXT.text = potion_data.name
+	else
+		NAME_TEXT.text = currentAbility.name
+	end
+
 	if not (currentPhase == AbilityPhase.COOLDOWN) then
 		PROGRESS_INDICATOR.visibility = Visibility.FORCE_OFF
 	else

@@ -1,4 +1,42 @@
 
+**Version 1.1.0**
+Improvements
+- Polished Cauldron UI
+- Added cheat "/teleport" that takes an additional parameter of either: Cauldron, Crafting, Map, Workshop, Pinball or Chairs.
+- Added a damage delay to throwable chairs, so it's less likely players will kill themselves when throwing.
+- Added flyup text with throw instructions when you pickup a chair.
+- Renamed "CharacterTest" to "Cheats" in the hierarchy, making it easier to find.
+- Combat Dependencies: Added CombatEvents component that adds priority order for event listeners.
+- Potions will now display their name instead of their asset ID string.
+- Adjusted the outlines on the ability HUD buttons.
+
+Bugs
+- Fixed chair throwing, inside and out of the tavern.
+- Fixed LeashZone healing by connecting to CombatEvents with the improved priority orders.
+- Fixed an error in the LDF Common treasure table, where it would try to drop "Bone", which doesn't exist.
+
+Other
+- Added documentation headers to several scripts.
+- Fixed various warnings related to deprecated API.
+- Core Update changed Material Bark Redwood 01 to Bark Redwood Avanced 01.
+
+**Version 1.0.4**
+- Fixed an error if a player left the game while throwing a chair.
+- Ability key labels now dynamically update based on action names.
+- The Eagle now teleports with the player when they travel to/from an adventure.
+- Fixed an error in the Quest UI when completing a quest while another quest was selected.
+
+**Version 1.0.3**
+- Fixed a framework usability issue where the Map of Adventures would not transfer players outdoors until quest data was reconfigured.
+
+**Version 1.0.2**
+- Blade Dash ability now displays correctly in the HUD.
+- Fixed typos in the Cauldron.
+- Updated the Weapon Tests scene to have the latest "Settings" folder. This adds respawn and changed a few other small things.
+- Fixed errors in poker that would prevent playing.
+- Fixed a bug in poker where the HUD could disappear completely after a player was booted from the table (when running out of money).
+- Fixed an error in LootMMORespawn.lua if the game didn't have any safe zones.
+
 **Version 1.0.1**
 Too many changes to mention. This is the first public release of the framework, with full game loop, quest system, NPCs, portals, abilities, character progression, etc.
 
