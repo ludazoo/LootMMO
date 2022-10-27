@@ -496,7 +496,7 @@ Objects {
   Name: "Terrain"
   Transform {
     Location {
-      Z: -3893.71069
+      Z: -3959.09448
     }
     Rotation {
     }
